@@ -2,7 +2,8 @@
 // import { ObjectLiterals } from './typescript/ObjectLiterals';
 // import { BasicFunctions } from './typescript/BasicFunctions';
 // import { Counter } from './components/Counter';
-import { LoginPage } from './components/LoginPage';
+// import { LoginPage } from './components/LoginPage';
+import { UsersPage } from './components/UsersPage';
 import { AuthProvider } from './context/AuthContext';
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
         {/* <ObjectLiterals /> */}
         {/* <BasicFunctions /> */}
         {/* <Counter /> */}
-        <LoginPage />
+        {/* <LoginPage /> */}
+        <UsersPage />
       </div>
     </AuthProvider>
   );
